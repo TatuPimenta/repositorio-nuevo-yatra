@@ -15,27 +15,39 @@
 <body class="grid">
     <header>
         <nav id="Inicio">
-            <ul>
-                <li class="cuadros"><a href="#inicio">Inicio</a></li>
-                <li class="cuadros"><a href="#album">Álbumes</a></li>
-                <li class="iconito_"><a href="#sebastian"><img class="icono-yatra"  src="./img/yatra.jpg" alt="yatra" width="300px" height="300px"></a></li>
-                <li class="cuadros"><a href="#show">Shows</a></li>
-                <li class="cuadros"><a href="./view/unete.html">Únete</a></li>
-            </ul>
+           <ul>
+              <li class="cuadros"><a href="#inicio">Inicio</a></li>
+              <li class="cuadros"><a href="#album">Álbumes</a></li>
+              <li class="iconito_"><a href="#sebastian"><img class="icono-yatra"  src="./img/yatra.jpg" alt="yatra" width="300px" height="300px"></a></li>
+              <li class="cuadros"><a href="#show">Shows</a></li>
+              <li class="cuadros"><a href="./view/unete.html">Únete</a></li>
+          </ul>
         </nav>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            
+        <div class="container">
+        <div id="carouselExampleInterval" class="carousel slide col-12" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/portada.jpg" class="d-block w-100" alt="Imagen de Yatra">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/portada.jpg" class="d-block w-100" alt="Imagen de Yatra" width="50%" height="50%">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/portada2.jpg" class="d-block w-100" alt="Imagen de Yatra" width="50%" height="50%">
               </div>
               <div class="carousel-item">
-                <img src="./img/portada2.jpg" class="d-block w-100" alt="Imagen de Yatra">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/portada3.jpg" class="d-block w-100" alt="Imagen de Yatra">
+                <img src="./img/portada3.jpg" class="d-block w-100" alt="Imagen de Yatra" width="50%" height="50%">
               </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+        </div>
+        
     </header>
 
     <Section class="section1">
@@ -99,5 +111,8 @@
             <a class="links" href="https://www.youtube.com/user/SebastianYatraVEVO" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             <a class="links" href="https://open.spotify.com/artist/07YUOmWljBTXwIseAUd9TW?si=51045e2fc7174304" target="_blank"><i class="fa-brands fa-spotify"></i></a>
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
