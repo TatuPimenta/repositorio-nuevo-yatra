@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/icono-yatra.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilo/style.css">
     <title>Sebastián Yatra</title>
     <script src="https://kit.fontawesome.com/bbfecc7ea0.js" crossorigin="anonymous"></script>
@@ -22,7 +23,19 @@
                 <li class="cuadros"><a href="./view/unete.html">Únete</a></li>
             </ul>
         </nav>
-        <img class="granfoto" src="./img/portada.jpg" alt="Imagen grande" width="100%" height="100%">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/portada.jpg" class="d-block w-100" alt="Imagen de Yatra">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/portada2.jpg" class="d-block w-100" alt="Imagen de Yatra">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/portada3.jpg" class="d-block w-100" alt="Imagen de Yatra">
+              </div>
+            </div>
+          </div>
     </header>
 
     <Section class="section1">
