@@ -85,7 +85,9 @@ header nav ul li{
 }
 
 .container{
-    margin: 0 0 2rem 11rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .titulos{
@@ -124,6 +126,7 @@ ul{
 
 a{
     text-decoration: none;
+    color: white !important;
 }
 
 .books{
@@ -159,6 +162,7 @@ i{
 .button{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 1.5rem;
 }
 
 .canciones{
