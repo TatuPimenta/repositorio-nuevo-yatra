@@ -1,0 +1,17 @@
+.textos {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer #redes {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 5rem;
+  background-color: yellow;
+}
+footer .links {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=styile.css.map */

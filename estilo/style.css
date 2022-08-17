@@ -1,0 +1,25 @@
+.textos {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  background-color: rgb(0, 0, 0);
+}
+
+.cuadros {
+  background-color: rgb(255, 238, 2);
+}
+
+footer #redes {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 5rem;
+  background-color: yellow;
+}
+footer .links {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
